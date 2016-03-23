@@ -32,7 +32,7 @@ class LoginReg extends CI_Controller {
 		$this->form_validation->set_rules("pw_confirm", "Password Confirmation", 'required|matches[pw]');
 			if($this->form_validation->run() === FALSE)
 				{
-				     $this->view_data["errors"] = validation_errors();
+				     $this->session->set_userdata(['errorsR'],validation_errors());
 
 				}
 			else
