@@ -1,0 +1,17 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.subcontent{
+	height:250px;
+	width:250px;
+	border-style:solid solid solid solid;
+	display:inline-block;
+}
+
+#activity_feed{
+	overflow: scroll;
+	height:100px;
+	width:700px;
+}

@@ -1,0 +1,36 @@
+h1 
+{
+	
+color: blue;
+
+}
+
+
+.errors {
+
+	color: red;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+}
+form{
+	height:250px;
+	width:250px;
+	border-style:solid solid solid solid;
+	display:inline-block;
+}
+
+.subcontent{
+	height:250px;
+	width:250px;
+	border-style:solid solid solid solid;
+	display:inline-block;
+}
+
+#activity_feed{
+	overflow: scroll;
+	height:100px;
+	width:700px;
+}
